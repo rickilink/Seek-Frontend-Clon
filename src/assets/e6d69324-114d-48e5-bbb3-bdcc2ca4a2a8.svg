@@ -1,0 +1,17 @@
+<svg class="ellipses" xmlns="http://www.w3.org/2000/svg" width="342" height="360" viewBox="0 0 342 360">
+                        <g transform="translate(-17 -976)">
+                            <g transform="translate(17 976)" fill="none" stroke="#757575" stroke-width="1">
+                                <circle cx="125.5" cy="125.5" r="125.5" stroke="#757575"></circle>
+                                <circle class="ellipse" cx="125.5" cy="125.5" r="125" stroke="#fff" fill="none" style="stroke-dashoffset: 2px;"></circle>
+                            </g>
+                            <g transform="translate(109 1085)" fill="none" stroke="#757575" stroke-width="1">
+                                <ellipse cx="125" cy="125.5" rx="125" ry="125.5" stroke="#757575"></ellipse>
+                                <ellipse class="ellipse" cx="125" cy="125.5" rx="124.5" ry="125" stroke="#fff" fill="none" style="stroke-dashoffset: 2px;"></ellipse>
+                            </g>
+                            <g class="bridge" opacity="0">
+                                <line x2="49.976" y2="81.717" transform="translate(159.161 1119.511)" fill="none" stroke="#757575" stroke-width="1" stroke-dasharray="2 2"></line>
+                                <circle cx="4" cy="4" r="4" transform="translate(151 1110)" fill="#fff"></circle>
+                                <circle cx="4" cy="4" r="4" transform="translate(208 1202)" fill="#fff"></circle>
+                            </g>
+                        </g>
+                    </svg>
