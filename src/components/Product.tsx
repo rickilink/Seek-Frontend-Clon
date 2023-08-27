@@ -10,13 +10,13 @@ interface Properties {
 
 export const Product = (product: Properties) => {
   return (
-    <div className="px-4 py-5">
+    <div className="px-5 py-5">
       <div
         className="d-flex justify-content-center align-items-center"
         style={{
           backgroundColor: product.color,
           width: "100%",
-          height: "500px",
+          height: "450px",
         }}
       >
         <p
@@ -30,7 +30,7 @@ export const Product = (product: Properties) => {
         </p>
       </div>
       <div className="py-3">
-        <h2 className="py-3" style={{ fontSize: "1rem" }}>
+        <h2 className="" style={{ fontSize: "1rem" }}>
           {product.title}
         </h2>
         {product.comingSoon && (
@@ -38,7 +38,7 @@ export const Product = (product: Properties) => {
             Coming soon
           </p>
         )}
-        <p className="py-3" style={{ fontSize: "1.7rem" }}>
+        <p className="pt-3" style={{ fontSize: "1.7rem" }}>
           {product.description}
         </p>
         {!product.comingSoon && (

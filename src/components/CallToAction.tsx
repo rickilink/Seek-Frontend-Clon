@@ -3,12 +3,16 @@ import React from "react";
 export const CallToAction = () => {
   return (
     <section
-      className="bg-black px-3"
-      style={{ paddingTop: "100px", paddingBottom: "100px" }}
+      className="bg-black px-3 py-5"
+      style={{ paddingTop: "100px", marginBottom: "110px" }}
     >
       <h2
         className="text-center py-5"
-        style={{ fontSize: "3rem", fontFamily: "freight" }}
+        style={{
+          fontSize: "3.5rem",
+          fontFamily: "freight",
+          fontWeight: "bold",
+        }}
       >
         Got a project in mind? <br />
         <a

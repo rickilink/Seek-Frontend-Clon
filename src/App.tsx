@@ -9,7 +9,7 @@ import { Products } from "./components/Products";
 
 function App() {
   return (
-    <main>
+    <main style={{ backgroundColor: "black" }}>
       <NavBarComponent />
       <Hero />
       <Expertise />

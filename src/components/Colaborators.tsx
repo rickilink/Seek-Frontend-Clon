@@ -68,8 +68,8 @@ export const Colaborators = () => {
     },
   ];
   return (
-    <section className="bg-black">
-      <div className="container ">
+    <section className="bg-black py-5">
+      <div className="container-fluid px-5 ">
         <h2
           style={{
             fontSize: "3.5rem",
